@@ -1,0 +1,9 @@
+image: gitpod/workspace-java-21
+
+vscode:
+    extensions:
+      - vscjava.vscode-java-pack
+      - humao.rest-client
+
+tasks:
+  - init: "docker-compose up -d"
