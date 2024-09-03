@@ -1,0 +1,29 @@
+@baseUrl = https://8080-calil05-atividade02apis-pz281xgic6v.ws-us116.gitpod.io/
+
+###
+GET {{baseUrl}}/produtos
+
+###
+GET {{baseUrl}}/produtos/4
+
+###
+POST {{baseUrl}}/produtos
+Content-Type: application/json
+
+{   
+    "nome": "Batata",
+    "descricao": "Pra fazer salada",
+    "valor": 200
+}
+
+###
+PUT {{baseUrl}}/produtos/1
+Content-Type: application/json
+
+{
+    "descricao": "Testando Alteração",
+    "concluido": false
+}
+
+###
+DELETE {{baseUrl}}/produtos/1
