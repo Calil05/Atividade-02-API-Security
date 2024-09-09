@@ -1,0 +1,10 @@
+@baseUrl = https://8080-calil05-atividade02apis-pz281xgic6v.ws-us116.gitpod.io/
+
+###
+POST {{baseUrl}}/auth
+Content-Type: application/json
+
+{
+    "nomeDeUsuario": "admin",
+    "senha": "user"
+}
